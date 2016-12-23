@@ -42,7 +42,7 @@ describe("Testing the third route", function(err){
 /*
 describe("Testing register route", function(err){
   it("should handle and send the success message", function(done){
-	  var det={"username":"Punit","password":"1234","name":"Punit"};
+	  var det={"username":"savan","password":"1234","name":"savan"};
     url
         .post("/register")
 		.send(det)
@@ -61,7 +61,7 @@ describe("Testing register route", function(err){
 
 describe("Testing login route", function(err){
   it("should handle and send the success message", function(done){
-	  var lo={"username":"Punit","password":"1234","name":"Punit"};
+	  var lo={"username":"savan","password":"1234","name":"savan"};
     url
         .post("/users/login")
 		.send(lo)
@@ -80,7 +80,7 @@ describe("Testing login route", function(err){
 
 describe("Testing login route", function(err){
 	it("should handle and send the success message", function(done){
-	  var lo={"username":"Punit","password":"1234","name":"Punit"};
+	  var lo={"username":"savan","password":"1234","name":"savan"};
     server
         .post("/users/login")
 		.send(lo)
@@ -100,7 +100,7 @@ describe("Testing login route", function(err){
     "author": "Chris Velazco",
     "title": "Samsung Gear S3 Frontier review: Lots of features, not enough apps",
     "description": "$350 gets you a great design and a very limited ecosystem.",
-    "url": "https://www.engadget4.com/2016/12/20/samsung-gear-s3-frontier-review/",
+    "url": "https://www.engadget4.com/2016/12/20/samsung-gear-s3-frontier-review8/",
     "urlToImage": "https://s.aolcdn.com/dims5/amp:5064dcd1a093da615a253d3a3a1a0763f846eebf/t:1200,630/q:80/?url=https%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F59f272bccaa2401725265c7886c2a322%2F204714931%2Fgears3-frontier.jpg",
     "publishedAt": "2016-12-20T18:00:00Z"
 
@@ -123,7 +123,7 @@ describe("Testing login route", function(err){
 
 describe("Testing login route", function(err){
 	it("should handle and send the success message", function(done){
-	  var lo={"username":"Punit","password":"1234","name":"Punit"};
+	  var lo={"username":"savan","password":"1234","name":"savan"};
     server
         .post("/users/login")
 		.send(lo)
@@ -167,7 +167,7 @@ describe("Testing login route", function(err){
 
 describe("Testing update news route", function(err){
 	it("should handle and send the success message", function(done){
-	  var lo={"username":"Punit","password":"1234","name":"Punit"};
+	  var lo={"username":"savan","password":"1234","name":"savan"};
     server
         .post("/users/login")
 		.send(lo)
@@ -211,7 +211,7 @@ describe("Testing update news route", function(err){
 
 describe("Testing delete news route", function(err){
 	it("should handle and send the success message", function(done){
-	  var del={"username":"Punit","password":"1234","name":"Punit"};
+	  var del={"username":"savan","password":"1234","name":"savan"};
     server
         .post("/users/login")
 		.send(del)

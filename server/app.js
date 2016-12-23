@@ -30,6 +30,7 @@ var compiler = webpack(webpackConfig);
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(connectflash());
+app.use(require('express-session')({ secret: 'accesskey'}));
 
 //webpack integration
 app.use(webpackDevMiddleware(compiler, {
@@ -129,13 +130,13 @@ function(username, password, done) {
 ));
 
 //passport session
-passport.serializeUser(function(user, done) {
-done(null, user.id);
+passport.serializeUser(function(User, done) {
+done(null, User.id);
 });
 
 passport.deserializeUser(function(id, done) {
-User.findById(id, function (err, user) {
-  done(err, user);
+User.findById(id, function (err, User) {
+  done(err, User);
 });
 });
 

@@ -3,7 +3,7 @@ import React from 'react';
 
 import SearchComponent from './SearchComponent.jsx';
 import NewsBoxComponent from './NewsBoxComponent.jsx';
-
+import Login from './Login.jsx';
 
 export default class HomeComponent extends React.Component{
 constructor(){
